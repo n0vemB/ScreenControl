@@ -95,7 +95,7 @@ def play_video():
 @app.route('/show_webpage')
 def show_webpage():
     try:
-        url = "https://workspace.easyv.cloud/shareScreen/eyJzY3JlZW5JZCI6MzE1NDM1NywiZXhwaXJlZEF0IjoiMjAyNC0xMi0wNlQwMjoyMjo1NC4wOThaIn0="  # 替换为你的数据大屏URL
+        url = "www.baidu.com"  # 替换为你的数据大屏URL
         process = subprocess.Popen([
             r'C:\Program Files\Google\Chrome\Application\chrome.exe',
             '--new-window',  # 使用新窗口而不是新标签
@@ -111,7 +111,7 @@ def show_webpage():
 @app.route('/show_webpage2')
 def show_webpage2():
     try:
-        url = "https://workspace.easyv.cloud/shareScreen/eyJzY3JlZW5JZCI6MzE1NDM4MywiZXhwaXJlZEF0IjoiMjAyNC0xMi0wNlQwMjoyNDo0NC45NDZaIn0=?timeStamp=19375bc4b39"  # 替换为你的第二个数据大屏URL
+        url = "www.qq.com"  # 替换为你的第二个数据大屏URL
         process = subprocess.Popen([
             r'C:\Program Files\Google\Chrome\Application\chrome.exe',
             '--new-window',  # 使用新窗口而不是新标签
@@ -127,7 +127,7 @@ def show_webpage2():
 @app.route('/show_webpage3')
 def show_webpage2():
     try:
-        url = "https://workspace.easyv.cloud/shareScreen/eyJzY3JlZW5JZCI6MzE1NDM3NSwiZXhwaXJlZEF0IjoiMjAyNC0xMi0wNlQwMjoxNjo1Ni41OTlaIn0=?timeStamp=19375bd9c51"  # 替换为你的第三个数据大屏URL
+        url = "www.bilibili.com"  # 替换为你的第三个数据大屏URL
         process = subprocess.Popen([
             r'C:\Program Files\Google\Chrome\Application\chrome.exe',
             '--new-window',  # 使用新窗口而不是新标签
@@ -143,7 +143,7 @@ def show_webpage2():
 @app.route('/show_webpage4')
 def show_webpage2():
     try:
-        url = "https://workspace.easyv.cloud/shareScreen/eyJzY3JlZW5JZCI6MzE0OTE1MywiZXhwaXJlZEF0IjoiMjAyNC0xMi0wNlQwMjoyNzoxOC4zNDVaIn0=?timeStamp=19375bea2bd"  # 替换为你的第四个数据大屏URL
+        url = "www.youtube.com"  # 替换为你的第四个数据大屏URL
         process = subprocess.Popen([
             r'C:\Program Files\Google\Chrome\Application\chrome.exe',
             '--new-window',  # 使用新窗口而不是新标签

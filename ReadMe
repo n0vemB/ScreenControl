@@ -1,3 +1,9 @@
+这是个用于展示的小工具，通过访问网页来控制内网的展示服务器。
+1、内置4个按钮(用来全屏展示指定网页）
+2、全屏展示video文件夹内内置的视频。
+以上功能需要在展示的服务器上安装chrome及python。
+然后访问服务器ip：8080
+
 要运行这个程序，你需要先安装必要的依赖：
 pip install flask
 pip install comtypes
@@ -6,4 +12,4 @@ pip install pywin32
 pip install selenium
 pip install webdriver_manager 
 
-到软件目录运行python server.py，然后访问http://ip:8080即可控制大屏主机打开浏览器访问指定页面，或播放内置的video。
+到软件目录运行 python server.py

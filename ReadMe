@@ -1,0 +1,9 @@
+要运行这个程序，你需要先安装必要的依赖：
+pip install flask
+pip install comtypes
+pip install pycaw
+pip install pywin32
+pip install selenium
+pip install webdriver_manager 
+
+到软件目录运行python server.py，然后访问http://ip:8080即可控制大屏主机打开浏览器访问指定页面，或播放内置的video。
